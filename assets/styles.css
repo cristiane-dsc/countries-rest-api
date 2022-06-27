@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 14px;
+  color: hsl(200, 15%, 8%);
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  font-weight: 800;
+}
+
+header, input, select {
+  border: none;
+  box-shadow: 0 0 3px hsl(0, 0%, 52%);
+}
+
+header, select {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(200, 15%, 8%);
+}
+
+#search-filter-container {
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+input {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 52%);
+}
+
+#countries-container {
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 2rem;
+  padding-bottom: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 3px hsl(0, 0%, 52%);
+}
+
+span {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 1rem;
+}
+
+p {
+  margin: 0 1rem;
+}
